@@ -1,0 +1,84 @@
+package com.example.smartmechanic.smart_mechanic.Model;
+
+import java.util.Date;
+import java.util.List;
+
+public class Request {
+    private String phone;
+    private String name;
+    private String address;
+    private String total;
+    private String status;
+    private List<Order> parts;
+    private String orderDate;
+
+    public Request(){
+
+    }
+
+    public Request(String phone, String name, String address, String total, List<Order> parts, String orderDate) {
+        this.phone = phone;
+        this.name = name;
+        this.address = address;
+        this.total = total;
+        this.parts = parts;
+        this.status="0";
+        this.orderDate = orderDate;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getTotal() {
+        return total;
+    }
+
+    public void setTotal(String total) {
+        this.total = total;
+    }
+
+    public List<Order> getParts() {
+        return parts;
+    }
+
+    public void setParts(List<Order> parts) {
+        this.parts = parts;
+    }
+
+    public String getOrderDate() {
+        return orderDate;
+    }
+
+    public void setOrderDate(String orderDate) {
+        this.orderDate = orderDate;
+    }
+}

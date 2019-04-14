@@ -1,0 +1,12 @@
+{
+  "User": {
+    "0987675432": {
+      "name": "Nalin",
+      "password": "nalin123"
+    },
+    "0985432759": {
+      "name": "Sameera",
+      "password": "sameera123"
+    }
+  }
+}
